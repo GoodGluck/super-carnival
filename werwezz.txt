@@ -1,0 +1,4 @@
+The help:effective-pom Goal
+The effective-pom goal is used to make visible the POM that results from the application of interpolation, inheritance and active profiles. It provides a useful way of removing the guesswork about just what ends up in the POM that Maven uses to build your project. It will iterate over all projects in the current build session, printing the effective POM for each.
+
+You can execute this goal using the following command:
